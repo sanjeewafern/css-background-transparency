@@ -1,0 +1,41 @@
+:root {
+  --title: #0077b5;
+  --paragraph: #313335;
+  --bgHash: #caccce;
+  --bgRgba: rgba(202, 204, 206, 0.4);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0.25rem;
+  text-align: center;
+}
+
+p {
+  color: var(--paragraph);
+}
+
+.title-text {
+  color: var(--title);
+}
+
+.bottom-margin {
+  margin-bottom: 0.75rem;
+}
+
+.opacity-backdrop {
+  background-color: var(--bgHash);
+  border-radius: 8px;
+  padding: 0.25rem 1rem;
+  opacity: 0.4;
+}
+
+.rgba-backdrop {
+  background-color: var(--bgRgba);
+  border-radius: 8px;
+  padding: 0.25rem 1rem;
+}
